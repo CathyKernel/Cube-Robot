@@ -1,0 +1,24 @@
+{
+  "name": "rubiks-cube-solver",
+  "version": "1.0.0",
+  "description": "3D simulation of a vision-guided robotic cell that scans and solves a Rubik's Cube — 6-DOF arm with a 2-finger gripper, eye-in-hand camera, and a Kociemba two-phase solver.",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx --yes serve ."
+  },
+  "keywords": [
+    "rubiks-cube",
+    "robotics",
+    "simulation",
+    "kinematics",
+    "inverse-kinematics",
+    "kociemba",
+    "threejs",
+    "webgl"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
