@@ -11,17 +11,6 @@ requests, no build step required to run it, works offline.
 
 ![Screenshot](docs/screenshot.png)
 
-## Quick start
-
-**Option A — just open it.**
-Open `index.html` in any modern browser (Chrome, Edge, Firefox, Safari).
-
-**Option B — GitHub Pages.**
-Push this repository, then in the repo settings enable
-*Settings → Pages → Deploy from a branch → root*. The demo is served at
-`https://<user>.github.io/<repo>/`.
-
-**Option C — local static server.**
 
 ```bash
 npm run serve     # serves the folder at http://localhost:3000
